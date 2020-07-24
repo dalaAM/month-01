@@ -1,0 +1,9 @@
+作业
+1. 三合一
+2. 当天练习独立完成
+3. 参照student_manager_system改写day16/info_manager_system.py代码
+     -- if __name__ == "__main__"
+     -- 多文件
+     -- 异常处理
+4. 继续准备周日的面向答辩内容
+5. 参加今晚名师大讲堂 pyautogui - 所有软件自动工作

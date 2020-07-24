@@ -1,0 +1,12 @@
+作业
+1. 三合一
+2. 当天练习独立完成
+3. 将参照student_manager_system结构,创建2048游戏.
+    (1). 将day15/home_work/game2048中的核心算法,定义到XXXController类中,
+          作为实例成员(全局变量->实例变量,函数-> 实例方法).
+    (2). 创建XXXView类,负责处理界面逻辑.
+            绘制2048界面
+            根据wsad键调用XXXController类中上下左右方法.
+4. $$$准备全国面向对象课程答辩
+链接：https://pan.baidu.com/s/1C7Iieixvjq-vuH13c8KCaQ
+提取码：z4io

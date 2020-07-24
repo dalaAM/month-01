@@ -1,0 +1,57 @@
+作业
+1. 三合一
+2. 当天练习独立完成
+3. 参照下列代码,定义函数,打印矩形
+    side_length = int(input("输入边长:"))  # 5
+    for item in range(1, side_length + 1):
+        # 第一行 或者 最后一行
+        if item == 1 or item == side_length:
+            print("*" * side_length)
+        else:  # 中间行
+            #  " " * (side_length - 2)  空格重复多次
+            print("*%s*" % (" " * (side_length - 2)))
+            # print(f"*{' ' * (side_length - 2)}*")
+
+4.  参照下列代码,定义函数,计算孩子身高.
+    father_height = float(input("请输入父亲的身高（厘米）:"))
+    mother_height = float(input("请输入母亲的身高（厘米）:"))
+    son_height = (father_height + mother_height) * 0.54
+    print("预测儿子的身高是:" + str(son_height) + "厘米")
+
+5.  参照下列代码,定义函数,计算加速度.
+    distence = float(input("距离为:"))
+    initial_velocity = float(input("速度为"))
+    time = float(input("时间为"))
+    accelerated_speed = 2 * (distence - initial_velocity * time) / time ** 2
+    print("加速度为" + str(accelerated_speed))
+
+6.  参照下列代码,定义函数,计算社保缴纳费用.
+    salary_before_tax = float(input("请输入税前工资："))
+    social_insurance = salary_before_tax * (0.08 + 0.02 + 0.002 + 0.12) + 3
+    print("个人需要缴纳社保费用：" + str(social_insurance))
+
+7. 参照下列代码,定义函数,计算税率和速算扣除数.
+        money = float(input('请输入应纳税所得额'))
+        if money <= 36000:
+            tax_rate = 0.03
+            deduction = 0
+        elif money <= 144000:
+            tax_rate = 0.1
+            deduction = 2520
+        elif money <= 300000:
+            tax_rate = 0.2
+            deduction = 16920
+        elif money <= 420000:
+            tax_rate = 0.25
+            deduction = 31920
+        elif money <= 660000:
+            tax_rate = 0.3
+            deduction = 52920
+        elif money <= 960000:
+            tax_rate = 0.35
+            deduction = 85920
+        else:
+            tax_rate = 0.45
+            deduction = 181920
+        # print('税率是%.0f%%速算扣除数是%d' % (tax_rate * 100, deduction))
+        print(f'税率是{tax_rate * 100}%速算扣除数是{deduction}')
